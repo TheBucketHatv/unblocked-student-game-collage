@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>
+            Games
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body> 
+            <h1>
+                Unblocked Student Developed Games
+            </h1>
+        <h3>
+           <i>CVHS Hackathon Club</i>
+        </h3>
+        <p class = "one">
+            <div>
+                <h3>
+                    List of Games:
+                </h3>
+                    <ul>
+                        <il> <a href = "https://sites.google.com/site/tyroneunblockedgame/flappy-bird?pli=1"> flappy bird </a> </il> <br/>
+                        <il> <a href = "file:///C:/Users/adben/Desktop/hack-project/index.html">dinosaur game -- revisited </a></il> <br/>
+                        <il> <a href = "FroggerRoads/Car.java" download = "FroggerRoads"> crossy roads </a> </il> <br/>
+                        <il> <a href = "https://thewordsearch.com/hangman/"> hangman </a> </il> <br/>
+                    </ul> 
+            </div>
+        </p>
+           
+                <p> Name: 
+                        <input id = "text" 
+                        name = "Name:" 
+                        size = "15"
+                        maxlength = "25" />
+                </p>
+                <p>
+                    Game:
+                    <select name = "games">
+                        <option value = "flappy bird"> flappy bird</option>
+                        <option value = "dinosaur game -- revisited"> dinosaur game -- revisited</option>
+                        <option value = "crossy roads"> crossy roads</option>
+                        <option value = "hangman"> hangman </option>
+                   </select>
+                </p>
+                <p>
+                    Score:
+                    <input id = "number"
+                    name = "score"
+                    size = "15"
+                    maxlength = "4" /> 
+                </p>
+            <button onclick = "myFunction()"> Submit </button> 
+            <p>
+                <h5 id = "message"> </h1>
+            </p>
+            <script>
+                function myFunction(){
+                    let text = document.querySelector("#text");
+                    let number = document.querySelector("#number");
+                    message.innerHTML = "Scoreboard: " + text.value + " - " + number.value;
+                }
+            </script>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+body {
+    background-color: aliceblue;
+    background-blend-mode: hue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h3 {
+    color:#2117b0;
+}
+ul {
+    color:#085c18;
+}
+div {
+    height: 150px;
+    width: 200px;
+    background-color:#dad9de;
+}
+p.one{
+    border-color:black
+}
